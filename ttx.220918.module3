@@ -1,0 +1,497 @@
+    1  pwd
+    2  cd /var/log
+    3  cd..
+    4  cd ..
+    5  pwd
+    6  ls
+    7  ls -a
+    8  ls -la
+    9  cd /
+   10  pwd
+   11  cd
+   12  pwd
+   13  cd ..
+   14  pwd
+   15  cd
+   16  pwd
+   17  cd .
+   18  pwd
+   19  cd ../
+   20  pwd
+   21  man ls
+   22  cd /var
+   23  pwd
+   24  ls -sr
+   25  ls -rs
+   26  hwinfo
+   27  hwinfo -short
+   28  cd ..
+   29  hwinfo -short
+   30  pwd
+   31  lscpu
+   32  lshw
+   33  sudo lshw -short
+   34  lscpu
+   35  lshw
+   36  hwinfo
+   37  lspci
+   38  lsscsi
+   39  lsusb
+   40  lnxi
+   41  lsblk
+   42  df
+   43  fdisk
+   44  mount
+   45  histoy > name.YYMMDD.module2
+   46  history > name.YYMMDD.module2
+   47  sudo history > name.YYMMDD.module2
+   48  history > ttx.220915.module2
+   49  history > ttx.220915.module2.txt
+   50  sudo history > ttx.220915.module2
+   51  history
+   52  cd /home
+   53  pwd
+   54  history > ttx.220915.module2
+   55  history
+   56  sudo history > ttx.220915.module2
+   57  cd ~
+   58  pwd
+   59  cd ..
+   60  pwd
+   61  cd ~
+   62  pwd
+   63  cd ..
+   64  pwd
+   65  cd.
+   66  cd
+   67  pwd
+   68  history
+   69  history > test.txt
+   70  ls
+   71  cd ..
+   72  ls
+   73  cd ec2-user
+   74  ls
+   75  ls -rs
+   76  ls -sr
+   77  ls -s
+   78  ls
+   79  ls /
+   80  ls -l
+   81  ls -l /
+   82  man ls
+   83  pwd
+   84  cd /usr/bin
+   85  pwd
+   86  cd /usr/
+   87  ls
+   88  cd ec2-user
+   89  cd /ec2-user
+   90  cd ..
+   91  pwd
+   92  cd /ec2-user
+   93  cd ~
+   94  pwd
+   95  cd
+   96  pwd
+   97  cd ..
+   98  cd /home
+   99  pwd
+  100  cd
+  101  mkdir
+  102  mkdir c268
+  103  ls
+  104  cd
+  105  pwd
+  106  ls
+  107  cd c268
+  108  cd
+  109  ls
+  110  ls -l
+  111  ls -l c268
+  112  ls -ltr
+  113  touch file.txt
+  114  ls
+  115  ls -l
+  116  ls -ltr
+  117  touch abc.txt
+  118  ls
+  119  ls -l
+  120  ls -ltr
+  121  pwd
+  122  cd /home
+  123  ls
+  124  cd ec2-user
+  125  cd /home
+  126  cd /home/ec2-user
+  127  cd /
+  128  ls
+  129  cd /home/ec2-user
+  130  pwd
+  131  man mkdir
+  132  uname
+  133  uname -a
+  134  history
+  135  history ttx.220916.txt
+  136  history > ttx.220916.txt
+  137  ls
+  138  pwd
+  139  cd /var/log
+  140  cd ..
+  141  pwd
+  142  cd
+  143  pwd
+  144  clear
+  145  history
+  146  sudo yum install git
+  147  history
+  148  history > ttx.220916.txt
+  149  ls
+  150  cd /ttx.220916.txt
+  151  cat ttx.220916.txt
+  152  cd
+  153  pwd
+  154  cd ~
+  155  ls
+  156  mkdir Algo1
+  157  ls
+  158  cd Algo1/
+  159  mkdir config bin logs scripts
+  160  ls
+  161  cd
+  162  pwd
+  163  uname --version
+  164  pwd
+  165  ls
+  166  cd Algo1/
+  167  ls
+  168  cd config/
+  169  touch config.config.txt
+  170  ls
+  171  touch variables.txt
+  172  ls
+  173  cd
+  174  pwd
+  175  ls
+  176  cd Algo1/
+  177  ls
+  178  cd config/
+  179  ls
+  180  cd
+  181  pwd
+  182  cd Algo1/
+  183  cd config/
+  184  touch config.config variables
+  185  ls
+  186  cat config.config
+  187  ls
+  188  pwd
+  189  git
+  190  clear
+  191  git clone https://github.com/ttx89/c268.git
+  192  ls
+  193  ls -ltr
+  194  rm -rf c268
+  195  ls -ltr
+  196  ls
+  197  pwd
+  198  cd
+  199  pwd
+  200  git clone https://github.com/ttx89/c268.git
+  201  ls
+  202  ls -ltr
+  203  cd c268
+  204  ls
+  205  touch file.txt
+  206  ls
+  207  pwd
+  208  git status
+  209  git add .
+  210  git status
+  211  git commit -m "first commit creating a new file"
+  212  git config --global user.gmail "ttx.montreal@gmail.com"
+  213  git commit -m "first commit creating a new file"
+  214  ls
+  215  git push
+  216  ls -ltr
+  217  git push
+  218  ls -ltr
+  219  mkdir BasicExercise
+  220  ls -ltr
+  221  touch "file.txt"
+  222  ls -ltr
+  223  rm "file.txt"
+  224  ls -ltr
+  225  cd BasicExercise/
+  226  pwd
+  227  touch file.txt
+  228  cd ..
+  229  pwd
+  230  ls -ltr
+  231  rm -rf BasicExercise/
+  232  find /home/ec2-user/c268 -name "file*"
+  233  find /home/ec2-user/c268 -name "Read*"
+  234  find /home/ec2-user/c268 -name "RE*"
+  235  find /home/ec2-user/c268 -name "RE*" -cday -l
+  236  find /home/ec2-user/c268 -name "RE*" -atime -l
+  237  find /home/ec2-user/c268 -name "RE*" -atime -1
+  238  cd
+  239  vi manfind
+  240  find /home/ec2-user/c268 -name "RE*" -atime -1
+  241  find /home/ec2-user/c268 -name "RE*" -mtime -1
+  242  ls -ltr
+  243  history > 20220916_ttx
+  244  ls
+  245  cat 20220916_ttx
+  246  echo 123
+  247  echo 123 > file
+  248  echo 123 >> file
+  249  cat file
+  250  echo 123 >file
+  251  cat file
+  252  echo 343 > file
+  253  cat file
+  254  less file
+  255  more file
+  256  while true; do echo helloooo >> file3; done
+  257  cat file
+  258  more file
+  259  more file3
+  260  less file3
+  261  cp file3 file45
+  262  ls
+  263  ls -ltr
+  264  ls -ltrh
+  265  cp -p file3 file45_v2
+  266  ls -ltr
+  267  cd
+  268  ls
+  269  pwd
+  270  cp file45_v2 /home/ec2-user/c268/file_for_git
+  271  ls
+  272  ls /home/ec2-user/c268/file_for_git
+  273  cd
+  274  cd c268
+  275  ls
+  276  cd
+  277  touch exampl
+  278  ls
+  279  vi file45
+  280  grep hello > file_test
+  281  grep hello file_test
+  282  cat file_test
+  283  echo hello > file_test
+  284  cat file_test
+  285  echo hello > file_test
+  286  grep hello file_test
+  287  grep -V 123 file45
+  288  echo 123 | grep [0-9]
+  289  grep 123 file45
+  290  grep o file45
+  291  ls | wc -l
+  292  echo Trddd | grep trd
+  293  echo Trddd > grep_example
+  294  grep trd grep_example
+  295  grep -i trd grep_example
+  296  grep -w trd grep_example
+  297  vi grep_example
+  298  grep -w trd grep_example
+  299  cat grep_example
+  300  grep trd grep_example
+  301  grep Trd /home/ec2-user/grep_example
+  302  ls
+  303  cd c268
+  304  ls
+  305  history > ttx.220916.module2.txt
+  306  cat ttx.220916.module2.txt 
+  307  git add .
+  308  git status
+  309  git commit -m "module2"
+  310  git config --global user.gmail "ttx.montreal@gmail.com"
+  311  git commit -m "module2 adding"
+  312  git status
+  313  git push .
+  314  ls
+  315  cd
+  316  pwd
+  317  ls
+  318  cd /c268
+  319  cd c268/
+  320  cd
+  321  cd Algo1/
+  322  ls
+  323  cd config
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd scripts
+  328  ls
+  329  touch start.sh stop.sh admin.sh
+  330  ls
+  331  cd ..
+  332  cd logs
+  333  ls
+  334  touch today.log
+  335  ls
+  336  cd
+  337  ls -r
+  338  ls -R
+  339  ls -R /tmp/dir1
+  340  ls -R /tmp/dirl
+  341  ls -R /ec1-user
+  342  ls -R /ec2-user
+  343  ls -R /home/ec2-user
+  344  ls -ltr | grep *.txt
+  345  cd c268/
+  346  SIZE=202
+  347  echo fdshk
+  348  echo $SIZE
+  349  SIZE = 233
+  350  SIZE= 233
+  351  SIZE=202
+  352  echo $SIZE
+  353  ls -ltr
+  354  head -15 file_moved
+  355  head -15 file_for_git
+  356  cat file_for_git > $SIZE
+  357  echo $SIZE
+  358  ls
+  359  ls -ltr
+  360  head -15
+  361  grep 34
+  362  SIZE='logfile.log'
+  363  echo Hello > $SIZE
+  364  echo Hello > logfile.log
+  365  cd ..
+  366  echo Hello >> logfile.log
+  367  ls
+  368  cat logfile.log
+  369  pwd
+  370  cd c268/
+  371  ls logfile.log 
+  372  pwd
+  373  ls -ltra
+  374  vi .bashrc
+  375  cd
+  376  VAR=pwd
+  377  echo $VAR 
+  378  $VAR 
+  379  VAR=$(pwd)
+  380  echo $VAR 
+  381  pwd
+  382  cd c268
+  383  echo $VAR 
+  384  VAR=$(pwd)
+  385  echo $VAR 
+  386  cd
+  387  echo $VAR 
+  388  VAR=$(pwd)
+  389  VAR='pwd'
+  390  echo $VAR 
+  391  VAR=$(pwd)
+  392  echo $VAR 
+  393  VAR=`pwd`
+  394  echo $VAR 
+  395  echo "$VAR"
+  396  echo "$VAR /defsd"
+  397  echo "$VAR _US"
+  398  echo "{$VAR}_US"
+  399  echo "{$VAR}"
+  400  echo "${VAR}"
+  401  cd
+  402  cd /var/log
+  403  cd ..
+  404  cd
+  405  history
+  406  cd
+  407  history
+  408  git --version
+  409  ls
+  410  cd c268/
+  411  ls
+  412  touch newfile.txt
+  413  ls
+  414  git status
+  415  git all .
+  416  git add .
+  417  git status
+  418  git commit -m "second commit module2"
+  419  git config --global "ttx.montreal@gmail.com
+  420  git commit -m "second commit module2"
+  421  git push
+  422  git status
+  423  ls
+  424  cd c268/
+  425  ls
+  426  git status
+  427  git push
+  428  history
+  429  cd
+  430  ls
+  431  cd Algo1/
+  432  ls
+  433  cd config/
+  434  ls
+  435  rm variables
+  436  ls
+  437  cd ..
+  438  ls
+  439  rm bin/
+  440  rmdir bin/
+  441  ls
+  442  cd
+  443  pwd
+  444  cd ~
+  445  pwd
+  446  cd /
+  447  pwd
+  448  ls
+  449  cd /home
+  450  pwd
+  451  ls
+  452  cd ec2-user/
+  453  ls
+  454  cd Algo1/
+  455  mkdir bin
+  456  ls
+  457  cd ..
+  458  ls
+  459  cd Algo1/
+  460  ls
+  461  cd logs/
+  462  mkdir oldlogs
+  463  ls
+  464  cd oldlogs/
+  465  mkdir 2019 2018 2017
+  466  ls
+  467  cd 2017
+  468  cat 2017.log
+  469  touch 2017.log
+  470  ls
+  471  cd ..
+  472  ls
+  473  cd 2018
+  474  touch 2018.log
+  475  cd ..
+  476  ls
+  477  cd 2019
+  478  touch 2019.log
+  479  ls
+  480  cd
+  481  pwd
+  482  rm /home/ec2-user/Algo1/logs/oldlogs/
+  483  rmdir /home/ec2-user/Algo1/logs/oldlogs/
+  484  rmdir -rf /home/ec2-user/Algo1/logs/oldlogs/
+  485  rm -rf /home/ec2-user/Algo1/logs/oldlogs/
+  486  ls
+  487  cd Algo1/
+  488  ls
+  489  cd logs/
+  490  ls
+  491  cd
+  492  pwd
+  493  find /home/ec2-user -name "*.sh"
+  494  ls
+  495  cd c268
+  496  ls
+  497  history > ttx.220918.module3
