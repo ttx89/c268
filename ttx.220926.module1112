@@ -1,0 +1,1000 @@
+  165  cd logs/
+  166  mkdir oldlogs
+  167  ls
+  168  cd oldlogs/
+  169  mkdir 2019 2018 2017
+  170  ls
+  171  cd 2017
+  172  cat 2017.log
+  173  touch 2017.log
+  174  ls
+  175  cd ..
+  176  ls
+  177  cd 2018
+  178  touch 2018.log
+  179  cd ..
+  180  ls
+  181  cd 2019
+  182  touch 2019.log
+  183  ls
+  184  cd
+  185  pwd
+  186  rm /home/ec2-user/Algo1/logs/oldlogs/
+  187  rmdir /home/ec2-user/Algo1/logs/oldlogs/
+  188  rmdir -rf /home/ec2-user/Algo1/logs/oldlogs/
+  189  rm -rf /home/ec2-user/Algo1/logs/oldlogs/
+  190  ls
+  191  cd Algo1/
+  192  ls
+  193  cd logs/
+  194  ls
+  195  cd
+  196  pwd
+  197  find /home/ec2-user -name "*.sh"
+  198  ls
+  199  cd c268
+  200  ls
+  201  history > ttx.220918.module3
+  202  ls
+  203  git status
+  204  git commit -m "3rd commit module3"
+  205  git add .
+  206  git commit -m "3rd commit module3"
+  207  git config --global "ttx.montreal@gmail.com"
+  208  git commit -m "3rd commit module3"
+  209  git push
+  210  ls
+  211  cat ttx.220916.module2.txt 
+  212  cat -n ttx.220916.module2.txt 
+  213  cd
+  214  ls
+  215  mkdir logs
+  216  vi fixGenerator.sh
+  217  cd
+  218  cd ~
+  219  vi fixGenerator.sh
+  220  ls
+  221  vi fixGenerator.sh
+  222  chmod 744 fixGenerator.sh
+  223  ls
+  224  ./fixGenerator.sh &
+  225  ls -ltr
+  226  cat fixlog20220919015635.log
+  227  cat -n fixlog20220919015635.log
+  228  cat fixlog20220919015635.log > newlog.log
+  229  ls
+  230  ls -ltr
+  231  mv newlog.log /logs
+  232  mv newlog.log /home/ec2-user/logs
+  233  ls
+  234  cd logs/
+  235  ls
+  236  cd
+  237  ls
+  238  cd c268/
+  239  ls
+  240  history > ttx.220918.module5
+  241  ls
+  242  git status
+  243  git add .
+  244  git status
+  245  git commit -m "4th commit module5"
+  246  git config --global "ttx.montreal@gmail.com"
+  247  git push
+  248  git status
+  249  cd
+  250  history
+  251  pwd
+  252  STOCK=AAPL
+  253  echo $STOCK
+  254  STOCK+=_US
+  255  echo $STOCK
+  256  PRICE=290.84
+  257  echo PRICE
+  258  echo $PRICE
+  259  echo "The current price of is $PRICE"
+  260  echo usr
+  261  echo $usr
+  262  echo $username
+  263  echo $USER
+  264  WHOAMI=$USER
+  265  echo $WHOAMI
+  266  uname
+  267  SERVERTYPE=$(uname)
+  268  echo $WERVERTYPE
+  269  echo $SERVERTYPE
+  270  echo "$SERVERTYPE"
+  271  echo `$SERVERTYPE`
+  272  echo ($SERVERTYPE)
+  273  echo $$SERVERTYPE
+  274  echo $($SERVERTYPE)
+  275  echo "${SERVERTYPE}"
+  276  CMD=uname -i
+  277  echo $CMD
+  278  CMD="uname -i"
+  279  echo $CMD
+  280  echo {$CMD}
+  281  echo "{$CMD}"
+  282  echo "${CMD}"
+  283  echo ${CMD}
+  284  echo "CMD"
+  285  LS
+  286  ls
+  287  cd c268/
+  288  ls
+  289  history ttx.220918.module4
+  290  git status
+  291  git add .
+  292  git status
+  293  history > ttx.220918.module4
+  294  git status
+  295  git add .
+  296  git status
+  297  git commit -m "5th commit module4"
+  298  git config --global "ttx.montreal@gmail.com"
+  299  git push
+  300  ls
+  301  cd
+  302  ls
+  303  ls /usr/bin/
+  304  objdump -M intel -D /usr/bin/grep
+  305  man ps
+  306  ps -ef
+  307  ps -f$$
+  308  ps -ef f
+  309  ps -rf | grep -v root
+  310  ps -ef | grep -v root
+  311  ps -s
+  312  pstree -shapu $$
+  313  ps -ef | egrep "$$\cmd"
+  314  ps -eo user,pid,ppid,stat,cmd | egrep "(CMD|$$)"
+  315  ps -eo user,pid,ppid,stat,cmd | grep -E "(CMD|$$)"
+  316  ps -eo pid, stat | S
+  317  ps -eo pid, stat | grep S
+  318  ps -eo pid, stat | grep S | head
+  319  top
+  320  top -u $USER
+  321  ping google.com
+  322  traceroute google.com
+  323  netstat -a
+  324  cd
+  325  clear
+  326  echo $STOCK
+  327  STOCK=AAPL
+  328  echo $STOCK
+  329  STOCK=${STOCK}_US"
+  330  STOCK="${STOCK}_US"
+  331  echo $STOCK
+  332  PRICE=290.84
+  333  echo PRICE
+  334  echo $PRICE
+  335  echo "The current price of ${STOCK} is ${PRICE}"
+  336  WHOAMI=$USER
+  337  echo $USER
+  338  echo $WHOAMI
+  339  SERVERTYPE=$(uname)
+  340  echo $SERVERTYPE
+  341  SERVERTYPE=`uname`
+  342  echo $SERVERTYPE
+  343  CMD="uname -i"
+  344  echo CMD
+  345  echo $CMD
+  346  clear
+  347  echo `$CMD`
+  348  history
+  349  cd
+  350  pwd
+  351  mkdir scripts
+  352  ls
+  353  echo $PATH
+  354  clear
+  355  export PATH=$PATH:/scripts/
+  356  echo $PATH
+  357  ls
+  358  rm -rf Algo1/
+  359  ls
+  360  mkdir Payment1
+  361  ls
+  362  cd Payment1/
+  363  clear
+  364  mkdir logs configuration scripts
+  365  ls
+  366  cd scripts
+  367  touch start.sh
+  368  ls
+  369  cd ..
+  370  cd configuration
+  371  touch instance.properties
+  372  ls
+  373  ls -ltr
+  374  chmod u=rwx,og=r instance.properties
+  375  ls
+  376  ls -ltr
+  377  cd ..
+  378  ls
+  379  cd scripts
+  380  ls
+  381  chmod u=rwx,g=rwx,o=x start.sh
+  382  ls -ltr
+  383  cd
+  384  clear
+  385  man cat > cat.output
+  386  ls -ltr
+  387  chmod u=r,g=rwx,o=r cat.output
+  388  ls -ltr
+  389  cd
+  390  clear
+  391  pwd
+  392  ls
+  393  rm -rf Payment1/
+  394  LS
+  395  ls
+  396  man rm
+  397  rm -i cat.output 
+  398  ls
+  399  man rm
+  400  mkdir temp
+  401  cd temp
+  402  pwd
+  403  MYTEMP=/home/ec2-user/temp
+  404  echo $MYTEMP
+  405  MYTEMP=""
+  406  echo $MYTEMP
+  407  CD ''
+  408  cd ..
+  409  ls
+  410  rm -rf temp
+  411  ls
+  412  history > ttx.220919.moudule4
+  413  cd
+  414  ls
+  415  cd c268/
+  416  git status
+  417  git all .
+  418  history > ttx.220919.moudule4
+  419  git status
+  420  git all .
+  421  git add .
+  422  git status
+  423  git commit -m "module4"
+  424  git config --global "ttx.montreal@gmail.com"
+  425  git commit -m "module4"
+  426  git push
+  427  git status
+  428  cd
+  429  ls
+  430  clear
+  431  pwd
+  432  ls
+  433  clear
+  434  pwd
+  435  cd /var/log
+  436  cd ..
+  437  pwd
+  438  ls
+  439  ls -l
+  440  ls -ltrs
+  441  cd /
+  442  clear
+  443  cd
+  444  cd /home
+  445  cd ~
+  446  cd ..
+  447  man ls
+  448  cd /var
+  449  ls -Sr
+  450  ls -rS
+  451  lshw
+  452  hwinfo
+  453  uname --version
+  454  cd
+  455  clear
+  456  cd
+  457  pwd
+  458  mkdir Algo1
+  459  cd Algo1/
+  460  mkdir config bin logs scripts
+  461  ls
+  462  cd config
+  463  touch config.config variables
+  464  ls
+  465  cd ..
+  466  ls
+  467  cd scripts/
+  468  touch start.sh stop.sh admin.sh
+  469  ls
+  470  cd ..
+  471  ls
+  472  cd logs/
+  473  touch today.log
+  474  ls
+  475  cd
+  476  ls -lR
+  477  ls
+  478  cd Algo1/
+  479  ls
+  480  cd config/
+  481  rm variables
+  482  ls
+  483  cd ..
+  484  ls
+  485  rmdir bin
+  486  ls
+  487  cd
+  488  cd Algo1/
+  489  mkdir bin
+  490  ls
+  491  cd logs/
+  492  ls
+  493  mkdir oldlogs
+  494  ls
+  495  mkdir 2019 2018 2017
+  496  cd 2017
+  497  touch 2017.log
+  498  cd ..
+  499  cd 2018
+  500  touch 2018.log
+  501  cd ..
+  502  cd 2019
+  503  touch 2019.log
+  504  ls
+  505  cd
+  506  rm -rf /home/ec2-user/Algo1/logs/oldlogs/
+  507  ls
+  508  cd Algo1/
+  509  cd logs/
+  510  ls
+  511  rmdir 2017
+  512  rm -rf 2017
+  513  rm -rf 2018
+  514  rm -rf 2019
+  515  ls
+  516  cd
+  517  find /home/ec2-user -name "*.sh"
+  518  echo $PATH
+  519  ls /usr/bin
+  520  hello="hello world"
+  521  echo $hello
+  522  vi .bash_profile
+  523  vi .bashrc
+  524  echo $hello2
+  525  vi .bashrc
+  526  mkdir new
+  527  ls
+  528  $PATH="$PATH:/home/ec2-user/new"
+  529  pwd
+  530  vi new/new
+  531  vimtutor
+  532  vi avengers
+  533  wc avengers 
+  534  vi avengers
+  535  wc avengers 
+  536  vi avengers
+  537  mv avengers avengers.ttx
+  538  ls
+  539  ls -l fixGenerator.sh 
+  540  ls
+  541  cat fixGenerator.sh 
+  542  cat -n fixGenerator.sh 
+  543  ls
+  544  ls -ltr
+  545  cat fixlog* > ~/newlog.log
+  546  ls -l
+  547  cd logs/
+  548  cd
+  549  mv newlog.log logs/.
+  550  cd logs/
+  551  ls
+  552  cd
+  553  cat fixlog* >> logs/newlog.log
+  554  ln -s newlog.log daily
+  555  cd ~
+  556  cat fixlog* | less
+  557  grep -i 35=d fixlog*
+  558  cat fixGenerator.sh 
+  559  cat fixlog* | less
+  560  grep 35=d fixlog* > logs/neworders.log
+  561  cp logs/neworders.log ~/.
+  562  ls
+  563  wc -l neworders.log
+  564  grep 35=D fixlog* > logs/newOrders.log
+  565  cp logs/newOrders.log ~/.
+  566  wc -l newOrders.log
+  567  grep 54=1 fixlog* > logs/buymessages.log
+  568  wc -l buymessages.log
+  569  wc -l logs/buymessages.log
+  570  grep  35=D logs/buymessages.log | wc -1
+  571  grep  35=D logs/buymessages.log | wc -l
+  572  grep -v 35=D fixlog* > logs/noneworders.log
+  573  wc -w logs/noneworders.log 
+  574  tail -n 5 logs/noneworders.log 
+  575  grep AAPL fixlog* | head -n 2
+  576  ln -s fixGenerator.sh fix
+  577  tail -f fixlog* | grep 35=D
+  578  mkdir superlogs
+  579  cp -r logs superlogs/.
+  580  grep -c FB fixlog*
+  581  wc -w fixlog*
+  582  grep 35=D fixlog* | grep NFLX | wc -l
+  583  ls
+  584  cd c268/
+  585  hitory ttx.220920.module5
+  586  hitory > ttx.220920.module5
+  587  history > ttx.220920.module5
+  588  git status
+  589  git add .
+  590  git status
+  591  git commit -m "module5"
+  592  git config --global "ttx.montreal@gmail.com"
+  593  git push
+  594  git status
+  595  cd
+  596  cat fixGenerator.sh 
+  597  history
+  598  echo $PATH
+  599  vi .bash_profile
+  600  echo $hello
+  601  ls
+  602  PATH="$path:new"
+  603  echo $PATH
+  604  PATH="$PATH:new"
+  605  echo $PATH
+  606  rmdir new
+  607  ls -ltr
+  608  cd
+  609  ls
+  610  pwd
+  611  ls
+  612  cd
+  613  pwd
+  614  ls
+  615  ls -ltr
+  616  echo $PATH
+  617  cd
+  618  ls
+  619  rmdir new
+  620  ls
+  621  mkdir new
+  622  PATH="$PATH:new"
+  623  vi new/new
+  624  chmod +x new/new
+  625  new
+  626  echo $PATH
+  627  sleep 10
+  628  sleep 500 &
+  629  sleep 700 &
+  630  jobs
+  631  fg %5
+  632  fg %2
+  633  sleep 10 && echo "hello world" &
+  634  sleep 5; man ls
+  635  grep -v 35=D fixlog* > fixlog.log
+  636  grep 35=D fixlog.log || grep 35=8 fixlog.log
+  637  watch date
+  638  ./fixGenerator.sh &
+  639  ls
+  640  ls -l
+  641  watch wc -l fixlog20220921173046.log
+  642  cd c268/
+  643  history > ttx.220921.module9
+  644  git status
+  645  git add .
+  646  git commit -m "module9"
+  647  git config --global user.email "ttx.montreal@gmail.com"
+  648  git push
+  649  mkdir scripts
+  650  ls
+  651  cd scripts/
+  652  vi newscript.sh
+  653  chmod +x newscript.sh 
+  654  ./newscript.sh 
+  655  vi newscript.sh
+  656  ./newscript.sh 
+  657  vi newscript.sh
+  658  ./newscript.sh 
+  659  vi newscript.sh
+  660  chmod +x intro.sh 
+  661  chmod +x intr.sh 
+  662  vi intro.sh
+  663  ./intr.sh 
+  664  ls
+  665  ./intr.sh 
+  666  vi intr.sh
+  667  chmod +x intr.sh 
+  668  ./intr.sh
+  669  vi intr.sh
+  670  ./intr.sh
+  671  vi intr.sh
+  672  ./intr.sh
+  673  vi intr.sh
+  674  vi numbers.sh
+  675  vi redirect.sh
+  676  chmod +x redirect.sh
+  677  ./redirect.sh 
+  678  vi redirect.sh
+  679  ./redirect.sh 
+  680  echo $USER
+  681  echo %D
+  682  clear
+  683  pwd
+  684  vi ttx-scripting-activity1.sh
+  685  chmod +x ttx-scripting-activity1.sh 
+  686  ./ttx-scripting-activity1.sh 
+  687  vi ttx-scripting-activity1.sh
+  688  ./ttx-scripting-activity1.sh 
+  689  vi ttx-scripting-activity1.sh
+  690  ./ttx-scripting-activity1.sh 
+  691  vi ttx-scripting-activity1.sh
+  692  ./ttx-scripting-activity1.sh 
+  693  vi ttx-scripting-activity1.sh
+  694  ./ttx-scripting-activity1.sh 
+  695  vi ttx-scripting-activity1.sh
+  696  ./ttx-scripting-activity1.sh 
+  697  vi ttx-scripting-activity1.sh
+  698  ./ttx-scripting-activity1.sh 
+  699  vi ttx-scripting-activity1.sh
+  700  ./ttx-scripting-activity1.sh 
+  701  vi ttx-scripting-activity1.sh
+  702  ./ttx-scripting-activity1.sh 
+  703  vi ttx-scripting-activity1.sh
+  704  ./ttx-scripting-activity1.sh 
+  705  vi ttx-scripting-activity1.sh
+  706  ./ttx-scripting-activity1.sh 
+  707  vi ttx-scripting-activity1.sh
+  708  ./ttx-scripting-activity1.sh 
+  709  vi ttx-scripting-activity1.sh
+  710  ./ttx-scripting-activity1.sh 
+  711  vi ttx-scripting-activity1.sh
+  712  ./ttx-scripting-activity1.sh 
+  713  vi ttx-scripting-activity1.sh
+  714  ./ttx-scripting-activity1.sh 
+  715  ls
+  716  vi ttx-scripting-activity1.sh
+  717  ./ttx-scripting-activity1.sh 
+  718  vi ttx-scripting-activity1.sh
+  719  ./ttx-scripting-activity1.sh 
+  720  ls -ltr
+  721  vi ttx-scripting-activity1.sh
+  722  ./ttx-scripting-activity1.sh 
+  723  ls -a | find . -type f | sort -nr | head -1
+  724  ls -a | sort -nr | head -1
+  725  vi ttx-scripting-activity1.sh
+  726  ls -ltShr | tail -n 1 | awk '{print $9}'
+  727  cd
+  728  mkdir activity2testdir
+  729  cd activity2testdir/
+  730  touch test1 test2 test3
+  731  cd ..
+  732  cd scripts/
+  733  vi ttx-scriptiing-activity2.sh
+  734  cd ..
+  735  ls
+  736  cd scripts/
+  737  vi ttx-scriptiing-activity2.sh 
+  738  chmod +x ttx-scripting-activity2.sh 
+  739  chmod +x ttx-scriptiing-activity2
+  740  ls
+  741  chmod +x ttx-scriptiing-activity2.sh
+  742  ./ttx-scriptiing-activity2.sh 
+  743  vi ttx-scriptiing-activity2.sh 
+  744  ./ttx-scriptiing-activity2.sh 
+  745  vi ttx-scriptiing-activity2.sh 
+  746  ./ttx-scriptiing-activity2.sh 
+  747  vi ttx-scriptiing-activity2.sh 
+  748  ./ttx-scriptiing-activity2.sh 
+  749  vi ttx-scriptiing-activity2.sh 
+  750  ./ttx-scriptiing-activity2.sh 
+  751  vi ttx-scriptiing-activity2.sh 
+  752  cd ..
+  753  cd activity2testdir/
+  754  ls
+  755  cd ..
+  756  cd scripts/
+  757  ls
+  758  vi ttx-scriptiing-activity2.sh 
+  759  ./ttx-scriptiing-activity2.sh 
+  760  vi ttx-scriptiing-activity2.sh 
+  761  ls
+  762  cd scripts/
+  763  ls
+  764  vi ttx-scripting-activity4.sh
+  765  vi ttx-scriptiing-activity2.sh 
+  766  vi ttx-scripting-activity4.sh
+  767  chmod +x ttx-scripting-activity4.sh 
+  768  ./ttx-scripting-activity4.sh 
+  769  vi ttx-scripting-activity4.sh
+  770  ./ttx-scripting-activity4.sh 
+  771  vi ttx-scripting-activity4.sh
+  772  ./ttx-scripting-activity4.sh 
+  773  vi ttx-scripting-activity4.sh
+  774  ./ttx-scripting-activity4.sh 
+  775  vi ttx-scripting-activity4.sh
+  776  ./ttx-scripting-activity4.sh 
+  777  vi ttx-scripting-activity4.sh
+  778  ./ttx-scripting-activity4.sh 
+  779  vi ttx-scripting-activity4.sh
+  780  ./ttx-scripting-activity4.sh 
+  781  vi ttx-scripting-activity4.sh
+  782  ./ttx-scripting-activity4.sh 
+  783  vi ttx-scripting-activity4.sh
+  784  vi ttx-scripting-activity8.sh
+  785  chmod ttx-scripting-activity8.sh 
+  786  chmod +x ttx-scripting-activity8.sh 
+  787  ./ttx-scripting-activity8.sh 
+  788  vi ttx-scripting-activity8.sh
+  789  ./ttx-scripting-activity8.sh 
+  790  vi ttx-scripting-activity8.sh
+  791  ./ttx-scripting-activity8.sh 
+  792  vi ttx-scripting-activity8.sh
+  793  ls
+  794  cd scripts/
+  795  ls
+  796  ./ttx-scripting-activity1.sh 
+  797  vi ttx-scripting-activity1.sh
+  798  ./ttx-scripting-activity1.sh 
+  799  vi ttx-scripting-activity1.sh
+  800  ./ttx-scripting-activity1.sh 
+  801  vi ttx-scripting-activity1.s
+  802  ./ttx-scripting-activity1.sh 
+  803  ls
+  804  cd scripts/
+  805  ls
+  806  vi ttx-scripting-activity1.sh 
+  807  ./ttx-scripting-activity1.sh 
+  808  vi ttx-scripting-activity1.sh 
+  809  ./ttx-scripting-activity1.sh 
+  810  vi ttx-scripting-activity1.sh 
+  811  ./ttx-scripting-activity1.sh 
+  812  vi ttx-scripting-activity1.sh 
+  813  ./ttx-scripting-activity1.sh 
+  814  vi ttx-scripting-activity1.sh 
+  815  ./ttx-scripting-activity1.sh 
+  816  vi ttx-scripting-activity1.sh 
+  817  ./ttx-scripting-activity1.sh 
+  818  ls -ltr
+  819  vi ttx-scripting-activity1.sh 
+  820  ./ttx-scripting-activity1.sh 
+  821  vi ttx-scripting-activity1.sh 
+  822  du -a | sort -nr | head -1
+  823  ls -S | head -1
+  824  vi ttx-scripting-activity1.sh 
+  825  ./ttx-scripting-activity1.sh 
+  826  vi ttx-scripting-activity1.sh 
+  827  ./ttx-scripting-activity1.sh 
+  828  ls -ltr
+  829  vi ttx-scripting-activity1.sh 
+  830  vi ttx-scripting-activity2.sh 
+  831  ./ttx-scriptiing-activity2.sh 
+  832  vi ttx-scriptiing-activity2.sh
+  833  ls
+  834  ls scripts
+  835  vi ttx-scriptiing-activity2.sh
+  836  cd scripts/
+  837  ls
+  838  vi ttx-scriptiing-activity2.sh
+  839  ./ttx-scriptiing-activity2.sh 
+  840  vi ttx-scriptiing-activity2.sh
+  841  ./ttx-scriptiing-activity2.sh 
+  842  vi ttx-scripting-activity3.sh
+  843  vi ttx-scripting-activity4.sh
+  844  ./ttx-scripting-activity4.sh 
+  845  vi ttx-scripting-activity4.sh
+  846  ./ttx-scripting-activity4.sh 
+  847  vi ttx-scripting-activity4.sh
+  848  ./ttx-scripting-activity4.sh 
+  849  vi ttx-scripting-activity4.sh
+  850  ./ttx-scripting-activity4.sh 
+  851  vi ttx-scripting-activity4.sh
+  852  ./ttx-scripting-activity4.sh 
+  853  vi ttx-scripting-activity4.sh
+  854  cd scripts/
+  855  ls
+  856  vi ttx-scripting-activity4.sh 
+  857  ./ttx-scripting-activity4.sh
+  858  vi ttx-scripting-activity4.sh 
+  859  ./ttx-scripting-activity4.sh
+  860  vi ttx-scripting-activity4.sh 
+  861  ./ttx-scripting-activity4.sh
+  862  vi ttx-scripting-activity4.sh 
+  863  ./ttx-scripting-activity4.sh
+  864  vi ttx-scripting-activity4.sh 
+  865  ./ttx-scripting-activity4.sh
+  866  vi ttx-scripting-activity4.sh 
+  867  ./ttx-scripting-activity4.sh
+  868  vi ttx-scripting-activity4.sh 
+  869  ./ttx-scripting-activity4.sh
+  870  vi ttx-scripting-activity4.sh 
+  871  ./ttx-scripting-activity4.sh
+  872  vi ttx-scripting-activity4.sh 
+  873  ./ttx-scripting-activity4.sh
+  874  vi ttx-scripting-activity4.sh 
+  875  ./ttx-scripting-activity4.sh
+  876  vi ttx-scripting-activity4.sh 
+  877  ./ttx-scripting-activity4.sh
+  878  vi ttx-scripting-activity4.sh 
+  879  ./ttx-scripting-activity4.sh
+  880  vi ttx-scripting-activity4.sh 
+  881  ./ttx-scripting-activity4.sh
+  882  vi ttx-scripting-activity4.sh 
+  883  ./ttx-scripting-activity4.sh
+  884  vi ttx-scripting-activity4.sh 
+  885  ./ttx-scripting-activity4.sh
+  886  vi ttx-scripting-activity4.sh 
+  887  ./ttx-scripting-activity4.sh
+  888  12345678
+  889  vi ttx-scripting-activity4.sh 
+  890  ./ttx-scripting-activity4.sh
+  891  vi ttx-scripting-activity4.sh 
+  892  ./ttx-scripting-activity4.sh
+  893  vi ttx-scripting-activity4.sh 
+  894  ./ttx-scripting-activity4.sh
+  895  vi ttx-scripting-activity4.sh 
+  896  ./ttx-scripting-activity4.sh
+  897  vi ttx-scripting-activity4.sh 
+  898  ./ttx-scripting-activity4.sh
+  899  vi ttx-scripting-activity4.sh 
+  900  ./ttx-scripting-activity4.sh
+  901  vi ttx-scripting-activity4.sh 
+  902  ./ttx-scripting-activity4.sh
+  903  vi ttx-scripting-activity4.sh 
+  904  ./ttx-scripting-activity4.sh
+  905  vi ttx-scripting-activity4.sh 
+  906  ./ttx-scripting-activity4.sh
+  907  vi ttx-scripting-activity4.sh 
+  908  ./ttx-scripting-activity4.sh
+  909  vi ttx-scripting-activity4.sh 
+  910  ./ttx-scripting-activity4.sh
+  911  vi ttx-scripting-activity4.sh 
+  912  ./ttx-scripting-activity4.sh
+  913  vi ttx-scripting-activity4.sh 
+  914  ./ttx-scripting-activity4.sh
+  915  vi ttx-scripting-activity4.sh 
+  916  ./ttx-scripting-activity4.sh
+  917  vi ttx-scripting-activity4.sh 
+  918  ./ttx-scripting-activity4.sh
+  919  vi ttx-scripting-activity4.sh 
+  920  ./ttx-scripting-activity4.sh
+  921  vi ttx-scripting-activity5.sh 
+  922  chmod +x  ttx-scripting-activity5.sh 
+  923  ./ttx-scripting-activity5.sh
+  924  vi ttx-scripting-activity5.sh 
+  925  ./ttx-scripting-activity5.sh
+  926  vi ttx-scripting-activity5.sh 
+  927  ./ttx-scripting-activity5.sh
+  928  vi ttx-scripting-activity5.sh 
+  929  ./ttx-scripting-activity5.sh
+  930  ls
+  931  vi ttx-scripting-activity3.sh 
+  932  chmod +x  ttx-scripting-activity3.sh 
+  933  ls
+  934  chmod +x  ttx-scripting-activity8.sh 
+  935  vi ttx-scripting-activity8.sh 
+  936  ./ttx-scripting-activity8.sh 
+  937  vi ttx-scripting-activity8.sh 
+  938  ./ttx-scripting-activity8.sh 
+  939  vi ttx-scripting-activity8.sh 
+  940  ./ttx-scripting-activity8.sh 
+  941  ls
+  942  vi ttx-scripting-activity11.sh 
+  943  chmod +x  ttx-scripting-activity11.sh 
+  944  ls
+  945  cd scripts/
+  946  vi ttx-scripting-activity11.sh 
+  947  vi ttx-scripting-activity4.sh 
+  948  vi ttx-scripting-activity8.sh 
+  949  ./ttx-scripting-activity8.sh 
+  950  vi ttx-scripting-activity8.sh 
+  951  ./ttx-scripting-activity8.sh 
+  952  vi ttx-scripting-activity8.sh 
+  953  ./ttx-scripting-activity8.sh 
+  954  vi ttx-scripting-activity11.sh 
+  955  cd scripts/
+  956  ls
+  957  vi ttx-scripting-activity11.sh 
+  958  man sort
+  959  vi ttx-scripting-activity11.sh 
+  960  cat > file.txt
+  961  vi file.txt
+  962  chmod +x ttx-scripting-activity11.sh 
+  963  ./ttx-scripting-activity11.sh 
+  964  vi ttx-scripting-activity11.sh 
+  965  ./ttx-scripting-activity11.sh 
+  966  vi ttx-scripting-activity11.sh 
+  967  cat file.txt
+  968  vi ttx-scripting-activity11.sh 
+  969  ./ttx-scripting-activity11.sh 
+  970  vi ttx-scripting-activity11.sh 
+  971  ./ttx-scripting-activity11.sh 
+  972  vi ttx-scripting-activity11.sh 
+  973  ./ttx-scripting-activity11.sh 
+  974  vi ttx-scripting-activity11.sh 
+  975  ./ttx-scripting-activity11.sh 
+  976  vi ttx-scripting-activity11.sh 
+  977  ./ttx-scripting-activity11.sh 
+  978  man tr
+  979  vi ttx-scripting-activity11.sh 
+  980  ./ttx-scripting-activity11.sh 
+  981  vi ttx-scripting-activity11.sh 
+  982  ./ttx-scripting-activity11.sh 
+  983  vi ttx-scripting-activity11.sh 
+  984  ./ttx-scripting-activity11.sh 
+  985  cat file.txt
+  986  vi ttx-scripting-activity11.sh 
+  987  ./ttx-scripting-activity11.sh 
+  988  vi ttx-scripting-activity11.sh 
+  989  ./ttx-scripting-activity11.sh 
+  990  vi ttx-scripting-activity11.sh 
+  991  ./ttx-scripting-activity11.sh 
+  992  vi ttx-scripting-activity11.sh 
+  993  ./ttx-scripting-activity11.sh 
+  994  man sort
+  995  vi ttx-scripting-activity11.sh 
+  996  ./ttx-scripting-activity11.sh 
+  997  vi ttx-scripting-activity11.sh 
+  998  ./ttx-scripting-activity11.sh 
+  999  vi ttx-scripting-activity11.sh 
+ 1000  ./ttx-scripting-activity11.sh 
+ 1001  ls
+ 1002  cd scripts/
+ 1003  ls
+ 1004  vi ttx-scripting-activity5.sh
+ 1005  vi ttx-scripting-activity3.sh
+ 1006  vi ttx-scripting-activity5.sh
+ 1007  vi ttx-scripting-activity4.sh
+ 1008  vi ttx-scripting-activity6.sh
+ 1009  vi ttx-scripting-activity4.sh
+ 1010  ./ttx-scripting-activity4.sh 
+ 1011  vi ttx-scripting-activity4.sh
+ 1012  ./ttx-scripting-activity4.sh 
+ 1013  vi ttx-scripting-activity4.sh
+ 1014  ./ttx-scripting-activity8.sh 
+ 1015  vi ttx-scripting-activity8.sh
+ 1016  vi ttx-scripting-activity6.sh
+ 1017  manu shuf
+ 1018  ./ttx-scripting-activity11.sh 
+ 1019  vi ttx-scripting-activity11.sh
+ 1020  history
+ 1021  vi ttx-scripting-activity3.sh
+ 1022  ps -ef
+ 1023  echo $USER
+ 1024  ps -ef | grep $USER
+ 1025  ps -ef | grep
+ 1026  ps -ef | grep -v $USER
+ 1027  ps -f $$
+ 1028  pstree -shapu $$
+ 1029  ps -eo user,pid,cmd
+ 1030  vi ttx-scripting-activity11.sh
+ 1031  ps -eo pid > ~/processes.list
+ 1032  sleep 300 &
+ 1033  ps -ef | grep sleep
+ 1034  kill pid
+ 1035  kill pid 7006
+ 1036  kill pid 5629
+ 1037  top
+ 1038  top -u root
+ 1039  top -z
+ 1040  top 
+ 1041  ping yahoo.com
+ 1042  tracerout yahoo.com > ~/yahoo.route
+ 1043  traceroute yahoo.com > ~/yahoo.route
+ 1044  less ~/yahoo.route 
+ 1045  vi ttx-scripting-activity11.sh
+ 1046  ln -s yahoo.route route
+ 1047  netstat -a > ~/network.output
+ 1048  mkdir ~/mkdir
+ 1049  mv yahoo.route network.output ~/network/.
+ 1050  mkdir ~/network
+ 1051  mv yahoo.route network.output ~/network/.
+ 1052  ls
+ 1053  cd ..
+ 1054  mv yahoo.route network.output ~/network/.
+ 1055  cd network
+ 1056  ls
+ 1057  cd ..
+ 1058  cd scripts/
+ 1059  cd ..
+ 1060  ifconfig
+ 1061  ls
+ 1062  cd c268/
+ 1063  ls
+ 1064  git status
+ 1065  history > ttx.220926.module6
+ 1066  git status
+ 1067  git add .
+ 1068  git commit -m "module6"
+ 1069  git push
+ 1070  git status
+ 1071  cd ..
+ 1072  df
+ 1073  df -h > ~/filesystem.usage
+ 1074  du ~
+ 1075  du -sh ~ > ~/disk.usage
+ 1076  du -ah > ~/disk.usage2
+ 1077  du /var
+ 1078  du -Lh ~
+ 1079  mkdir ~/disk
+ 1080  cp disk.usage disk.usage2 filesystem.usage ~/disk/.
+ 1081  cd disk
+ 1082  ls
+ 1083  cd ..
+ 1084  cd ~/disk/
+ 1085  tar -cvf disk.tar *
+ 1086  tar -xvf disk.tar
+ 1087  tar -cvzf disk.tar.gz *
+ 1088  touch newdisk
+ 1089  gunzip disk.tar.gz
+ 1090  tar -rvf disk.tar newdisk
+ 1091  gzip disk.tar.gz
+ 1092  mkdir ~/disk_output
+ 1093  tar -xvzf disk.tar.gz -C ~/disk_output/.
+ 1094  cd ~
+ 1095  gzip -r disk_output/
+ 1096  cd c268/
+ 1097  ls
+ 1098  history > ttx.220926.module7
+ 1099  git status
+ 1100  git add .
+ 1101  git commit --m "module7"
+ 1102  git push
+ 1103  git status
+ 1104  cd
+ 1105  ls
+ 1106  ./fixGenerator.sh &
+ 1107  sleep 10
+ 1108  sleep 500 &
+ 1109  sleep 700&
+ 1110  jobs
+ 1111  fg %2
+ 1112  fg %3
+ 1113  sleep 10 && echo "hello world" &
+ 1114  sleep 5; man ls
+ 1115  grep -v 35=D fixlog* > ~/fixlog.log
+ 1116  grep 35=D fixlog.log || grep 35=8 fixlog.log
+ 1117  watch data
+ 1118  ./fixGenerator.sh &
+ 1119  watch "wc -l fixlog*"
+ 1120  cd c268/
+ 1121  ls
+ 1122  history > ttx.220926.module9
+ 1123  git add .
+ 1124  git commit --m "updated module9"
+ 1125  git push
+ 1126  cd ..
+ 1127  ls
+ 1128  cd logs
+ 1129  ls
+ 1130  cd ..
+ 1131  mv fixlog* logs/.
+ 1132  ls
+ 1133  cat fixlog*.log | sed 's/MTHREE/M3/g' > fixlog2.log
+ 1134  grep 35=8 fixlog2.log | grep -v 32=0 > fills.log
+ 1135  grep 39=4 fixlog2.log > cancels.log
+ 1136  grep 39=1 fills.log > partiallFills.log
+ 1137  awk '{print $7, $9, $13, $10, $15, $16}' partiallFills.log > parsedPartialFills.log
+ 1138  cp cancels.log cancels.log
+ 1139  cp cancels.log cancels2.log
+ 1140  vi cancels2.log
+ 1141  cat cancels2.log
+ 1142  diff cancels.log cancels2.log 
+ 1143  cd c268/
+ 1144  history > ttx.220926.module10
+ 1145  git state
+ 1146  git status
+ 1147  git add .
+ 1148  git commit --m "module10"
+ 1149  git push
+ 1150  cd ..
+ 1151  TEXT="The number is "
+ 1152  for i in {1..25}; do echo "$TEXT $i"; done
+ 1153  for i in {1..25}; do echo "$TEXT $i"; done > forloop.out
+ 1154  cat forloop.out | sed 's/is /is not /g' > forloop2.out
+ 1155  i=1
+ 1156  if(( $i==1 )); then echo "i is equal to 1"; elif(( $i==2 )); then echo "i is equal to 2"; else echo "i is neither 1 or 2"; fi
+ 1157  i=4
+ 1158  TODAY=`date +%d.%m.%Y`
+ 1159  GENDATE="date +%d.%m.%Y"
+ 1160  touch ouptu.log.`$GENDATE`
+ 1161  touch ouptut.log.`$GENDATE`
+ 1162  cd c268/
+ 1163  ls
+ 1164  history > ttx.220926.module1112
